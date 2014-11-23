@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+}
+
+#header {
+    color: white;
+    border-radius: 0;
+}
+#header a, #header a span {
+    color: white;
+}
+#header-menu {
+    padding: 0px;
+}
+nav.navbar {
+    background: #333;
+    color: white;
+    border-radius: 0px;
+    margin-bottom: 0;
+    border: none;
+}
+.navbar-default .navbar-brand, nav.navbar a, .navbar-default .navbar-nav>li>a {
+    color: #d0d0d0;
+}
+.navbar-default .navbar-brand:hover, nav.navbar a:hover, .navbar-default .navbar-nav>li>a:hover {
+    color: #AFD8F8;
+}
+#header a {
+    font-family: 'Open Sans', sans-serif;
+}
+nav a.navbar-brand {
+    font-weight: normal;
+    font-size: 24px;
+    padding-left: 40px;
+    position: relative;
+}
+nav a.navbar-brand img {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+}
+.navbar-nav a {
+    font-size: 16px;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#navigation {
+    background: #faa;
+}
+
+
+#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:992px ) {
+    .row {
+        display: table;
+        width: 100%;
+    }
+
+    [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    #navigation {
+        padding: 15px;
+    }
+    #navigation > ul > li {
+        margin-bottom: 15px
+    }
+}
+
+@media (max-width: 991px) and (min-width:501px) {
+    #navigation > ul > li {
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    #navigation > ul > li > a{
+        display: inline-block;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    #navigation {
+        padding: 0;
+    }
+    #navigation > ul > li {
+        display: block;
+        width: 50%;
+        float: left;
+    }
+}
+
+
+
+
+#middle > .row {
+    position: relative;
+}
+
+#main-container {
+    background: #afa;
+}
+
+#banner-panel {
+    background: #aaf;
+}
+
+.container-full {
+    margin 0 auto;
+    width: 100%;
+}
+.row {
+    margin: 0;
+}
+
+/*
+@media (max-width: 800px) {
+    #navigation {
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+}
+    */
+
+
+#footer {
+    color: white;
+    background: #222;
+    height: 100px
+}

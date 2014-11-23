@@ -1,0 +1,35 @@
+.version img {
+    max-width: 100%;
+    max-height: 100px;
+    text-align: center;
+}
+
+.version.row {
+    border-top: 1px solid #eee;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+a.github-tag, a.version-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+a.version-title {
+    color: black;
+    text-decoration: none;
+}
+a.version-title:hover {
+    color: #018C6A;
+}
+a.github-tag {
+    display: inline-block;
+    background: #208C41;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px;
+}
+a.github-tag:hover {
+    background: #FF9500;
+}

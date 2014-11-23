@@ -1,0 +1,7 @@
+
+
+
+
+Shopping cart on desktop device
+    ${websiteUrl} 1300x800
+        check specs/shopping-cart.spec --include "desktop"
