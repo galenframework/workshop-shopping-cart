@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Galen Workshop - Shopping Cart</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="main.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="jquery-1.11.1.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav id="header" class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                  <button id="header-menubutton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="/"><img src="logo.png" height="26px"/> <span>Galen Shopping Cart</span></a>
+                </div>
+
+                <div id="header-menu" class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#help">Help</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div id="middle" class="container-full">
+            <div class="row">
+                <div id="navigation" class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <div class="top-menu">
+                        <div class="top-menu-mobile-row">
+                            <div class="top-menu-item">
+                                <a class="main-category" href="#">Actions</a>
+                                <ul>
+                                    <li>
+                                        <a class="sub-item">Sub item 1</a>
+                                    </li>
+                                    <li>
+                                        <a class="sub-item">Sub item 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="sub-item">Sub item 3</a>
+                                    </li>
+                                    <li>
+                                        <a class="sub-item">Sub item 4</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="top-menu-item">
+                                <a class="main-category" href="#">Shop</a>
+                                <ul>
+                                    <li>
+                                        <a class="sub-item">Sub item 1</a>
+                                    </li>
+                                    <li>
+                                        <a class="sub-item">Sub item 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="sub-item">Sub item 3</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top-menu-mobile-row">
+                            <div class="top-menu-item">
+                                <a class="main-category" href="#">Profile</a>
+                                <ul>
+                                    <li>
+                                        <a class="sub-item">Sub item 1</a>
+                                    </li>
+                                    <li>
+                                        <a class="sub-item">Sub item 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="sub-item">Sub item 3</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="top-menu-item">
+                                <a class="main-category" href="#">Info</a>
+                                <ul>
+                                    <li>
+                                        <a class="sub-item">Sub item 1</a>
+                                    </li>
+                                    <li>
+                                        <a class="sub-item">Sub item 2</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main-container" class="col-xs-12 col-sm-8 col-md-7 col-lg-7">
+                    <h1>Shopping Cart</h1>
+                    <div id="shopping-cart">
+                        <div class="cart-item">
+                            <img class="item-main-icon" src="images/cart-image.png"/>
+                            <div class="basic-elements-container">
+                                <a class="item-title" href="">Item 1</a>
+                                <p class="item-description">This is some description</p>
+                            </div>
+                            <div class="control-panel">
+                                <div class="item-price">10 $</div>
+                                <div class="item-quantity">x1</div>
+                                <div class="quantity-controls"><img src="images/quantity-controls-mock.ico"/></div>
+                                <div class="remove-link"><img src="images/remove-link.png"/></div>
+                            </div>
+                            <div class="mobile-menu-container"></div>
+                        </div>
+                        <div class="cart-item">
+                            <img class="item-main-icon" src="images/cart-image.png"/>
+                            <div class="basic-elements-container">
+                                <a class="item-title" href="">Item 2 with a very big long name that might not fit in the shopping item cart at all</a>
+                                <p class="item-description">
+                                This is some very big description that might not fit into the shopping
+                                blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                                </p>
+                            </div>
+                            <div class="mobile-menu-container"></div>
+                            <div class="control-panel">
+                                <div class="item-price">1000 $</div>
+                                <div class="item-quantity">x10</div>
+                                <div class="quantity-controls"><img src="images/quantity-controls-mock.ico"/></div>
+                                <div class="remove-link"><img src="images/remove-link.png"/></div>
+                            </div>
+                        </div>
+                        <div class="cart-item">
+                            <img class="item-main-icon" src="images/cart-image.png"/>
+                            <div class="basic-elements-container">
+                                <a class="item-title" href="">Item 3</a>
+                                <p class="item-description">This is some description</p>
+                            </div>
+                            <div class="mobile-menu-container"></div>
+                            <div class="control-panel">
+                                <div class="item-price">10000000 $</div>
+                                <div class="item-quantity">x2000</div>
+                                <div class="quantity-controls"><img src="images/quantity-controls-mock.ico"/></div>
+                                <div class="remove-link"><img src="images/remove-link.png"/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cart-bottom-panel">
+                        <div class="total">
+                            <span>Total: 1543 $</span>
+                        </div>
+                        <div class="buttons-panel">
+                            <div class="button-column">
+                                <a class="btn btn-success btn-lg button-pay" href="">Pay</a>
+                            </div>
+                            <div class="button-column">
+                                <a class="btn btn-danger btn-lg button-cancel" href="">Cancel</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="banner-panel" class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                    <h1>Suggested</h1>
+                    <div class="suggested-items">
+                        <div class="suggested-item">
+                            <div class="item-icon">
+                                <img src="images/cart-image.png"/>
+                            </div>
+                            <div class="item-container">
+                                <span class="item-title">Suggested Item 1</span>
+                                <p class="item-description">Suggested item detailed description</p>
+                                <span class="item-price">100 $</span>
+                            </div>
+                        </div>
+                        <div class="suggested-item">
+                            <div class="item-icon">
+                                <img src="images/cart-image.png"/>
+                            </div>
+                            <div class="item-container">
+                                <span class="item-title">Suggested Item 2</span>
+                                <p class="item-description">Suggested item detailed description</p>
+                                <span class="item-price">50 $</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="container-fluid">
+            <p id="footer-a-block">
+                Left block of the footer text
+            </p>
+            <p id="footer-b-block">
+                Right block of the footer text
+            </p>
+        </div>
+    </body>
+</html>

@@ -8,3 +8,15 @@ v0.3            Implemented high-level navigation items. The tests are failing
 v0.3.1          High level navigation is finished. Tests are passed
 v0.3.2          Sub items in navigation are implemented. tests are failed
 v0.3.3          Sub items for desktop are finished. Tests are passed
+v0.4            Footer elements initial layout. Tests are failed
+v0.4.1          Finished footer blocks. Tests are passed
+v0.5            Added tests and code for high level shopping cart items. Tests are failing
+v0.5.1          Fixed high level shopping cart layout. Tests are passed
+v0.5.2          Added basic cart item elements: icon, title, description. Tests are failing
+v0.5.3          Fixed basic cart elements. Tests are passed
+v0.5.4          Added control panel for cart items. Tests are passed
+v0.5.5          Added pay buttons and total label. Tests are failing
+v0.5.6          Refactored navigation menu. Fixed pay buttons. Tests are passed
+v0.6            Added banner suggested items. Tests are fialing
+v0.6.1          Fixed banner suggested items. Tests are passed
+v0.6.2          Improved colors. Tests are passed

@@ -1,0 +1,251 @@
+html, body {
+    height: 100%;
+}
+
+#header {
+    color: white;
+    border-radius: 0;
+}
+#header a, #header a span {
+    color: white;
+}
+#header-menu {
+    padding: 0px;
+}
+nav.navbar {
+    background: #333;
+    color: white;
+    border-radius: 0px;
+    margin-bottom: 0;
+    border: none;
+}
+.navbar-default .navbar-brand, nav.navbar a, .navbar-default .navbar-nav>li>a {
+    color: #d0d0d0;
+}
+.navbar-default .navbar-brand:hover, nav.navbar a:hover, .navbar-default .navbar-nav>li>a:hover {
+    color: #AFD8F8;
+}
+#header a {
+    font-family: 'Open Sans', sans-serif;
+}
+nav a.navbar-brand {
+    font-weight: normal;
+    font-size: 24px;
+    padding-left: 40px;
+    position: relative;
+}
+nav a.navbar-brand img {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+}
+.navbar-nav a {
+    font-size: 16px;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#navigation {
+    background: #faa;
+}
+
+
+#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation a.main-category {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#navigation ul ul li {
+    display: block;
+}
+
+#navigation ul li a {
+    margin: 0;
+}
+
+
+
+@media (min-width:992px ) {
+    .row {
+        display: table;
+        width: 100%;
+    }
+
+    [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    #navigation {
+        padding: 15px;
+    }
+    #navigation > ul > li {
+        padding: 0;
+        margin-bottom: 15px
+    }
+    #navigation ul ul {
+        margin-left: 15px;
+    }
+    #shopping-cart .cart-item {
+        margin-bottom: 15px;
+    }
+}
+
+/* desktop and tablet */
+@media (min-width: 501px) {
+    #footer-a-block {
+        display: inline-block;
+        position: absolute;
+        left: 15px;
+    }
+    #footer-b-block {
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+    }
+
+}
+
+/* tablet */
+@media (max-width: 991px) and (min-width:501px) {
+    #navigation > ul > li {
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    #navigation > ul > li > a{
+        display: inline-block;
+        padding: 10px;
+    }
+
+    #navigation ul ul {
+        display: none;
+    }
+
+    #main-container {
+        width:100%;
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+    #banner-panel {
+        width: 230px;
+        min-width: 230px;
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+
+}
+
+/* tablet and mobile */
+@media (max-width: 991px) {
+    #main-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #main-container h1 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #shopping-cart .cart-item {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    #navigation {
+        padding: 0;
+    }
+    #navigation > ul > li {
+        display: block;
+        width: 50%;
+        float: left;
+    }
+
+    #navigation ul ul {
+        display: none;
+    }
+}
+
+
+
+
+#middle > .row {
+    position: relative;
+}
+
+#main-container {
+    background: #fff;
+    padding-bottom: 20px;
+}
+
+#main-container h1 {
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+#shopping-cart .cart-item {
+    min-height: 50px;
+    border: 1px solid #aaa;
+    clear: both;
+}
+#shopping-cart .cart-item .mobile-menu-container{
+    clear: both;
+}
+#shopping-cart .cart-item a.item-title {
+    margin-top: 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#shopping-cart .cart-item .item-description{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    overflow: hidden;
+}
+
+#shopping-cart .cart-item .item-main-icon {
+    margin: 15px;
+    display: block;
+    float: left;
+}
+
+
+
+
+#banner-panel {
+    background: #aaf;
+    padding: 15px;
+    margin: 0;
+}
+
+.container-full {
+    margin 0 auto;
+    width: 100%;
+}
+.row {
+    margin: 0;
+}
+
+
+#footer {
+    color: white;
+    background: #222;
+    height: 100px;
+    padding-top: 15px;
+}
