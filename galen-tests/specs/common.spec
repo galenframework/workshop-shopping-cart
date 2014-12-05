@@ -90,13 +90,14 @@ navigation
     width: 200 to 350px
     aligned horizontally all: main
     near: main 0px left
+    inside: screen 0px left
 
 navigation-item-1
     inside: navigation 15px top left right
 
 [ 1 - 3 ]
 navigation-item-@
-    above: navigation-item-@{+1} 15px
+    above: navigation-item-@{+1} ~ 15px
     inside: navigation 15px left right
 
 navigation-item-4

@@ -5,6 +5,6 @@ websiteUrl=file://${currentDir}/website/shopping-cart.html
 
 cd galen-tests
 
-galen test . -DwebsiteUrl=${websiteUrl} --htmlreport ../reports
+galen test . -DwebsiteUrl=${websiteUrl} --htmlreport ../reports $*
 
 

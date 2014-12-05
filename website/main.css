@@ -59,6 +59,19 @@ nav a.navbar-brand img {
     padding: 0;
 }
 
+#navigation a.main-category {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#navigation ul ul li {
+    display: block;
+}
+
+#navigation ul li a {
+    margin: 0;
+}
+
 @media (min-width:992px ) {
     .row {
         display: table;
@@ -75,6 +88,7 @@ nav a.navbar-brand img {
         padding: 15px;
     }
     #navigation > ul > li {
+        padding: 0;
         margin-bottom: 15px
     }
 }
@@ -90,6 +104,10 @@ nav a.navbar-brand img {
         display: inline-block;
         padding: 10px;
     }
+
+    #navigation ul ul {
+        display: none;
+    }
 }
 
 
@@ -101,6 +119,10 @@ nav a.navbar-brand img {
         display: block;
         width: 50%;
         float: left;
+    }
+
+    #navigation ul ul {
+        display: none;
     }
 }
 
@@ -126,16 +148,6 @@ nav a.navbar-brand img {
 .row {
     margin: 0;
 }
-
-/*
-@media (max-width: 800px) {
-    #navigation {
-        display: block;
-        width: 100%;
-        clear: both;
-    }
-}
-    */
 
 
 #footer {
