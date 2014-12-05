@@ -149,10 +149,10 @@ navigation-item-2
     inside: navigation 0px top right
 
 navigation-item-3
-    inside: navigation 0px bottom left
+    inside: navigation 0 to 1px bottom left
 
 navigation-item-4
-    inside: navigation 0px bottom right
+    inside: navigation 0 to 1px bottom right
 
 
 
