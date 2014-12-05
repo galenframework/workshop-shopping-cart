@@ -16,15 +16,20 @@ a.github-tag, a.version-title {
     font-weight: bold;
 }
 a.version-title {
+    color: black;
+    text-decoration: none;
+}
+a.version-title:hover {
+    color: #018C6A;
 }
 a.github-tag {
     display: inline-block;
-    background: #aaa;
+    background: #208C41;
     color: white;
     border-radius: 5px;
     margin-right: 10px;
     padding: 5px;
 }
 a.github-tag:hover {
-    background: #ff00ff;
+    background: #FF9500;
 }

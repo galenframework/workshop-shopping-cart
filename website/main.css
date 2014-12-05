@@ -156,5 +156,6 @@ nav a.navbar-brand img {
 #footer {
     color: white;
     background: #222;
-    height: 100px
+    height: 100px;
+    padding-top: 15px;
 }

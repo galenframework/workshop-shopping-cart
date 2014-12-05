@@ -17,7 +17,10 @@ navigation-item-*   css #navigation > ul > li
 
 main            css #main-container
 banner-panel    css #banner-panel
+
 footer          css #footer
+footer-a-block  css #footer-a-block
+footer-b-block  css #footer-b-block
 
 =====================================
 
@@ -164,6 +167,26 @@ footer
     % inside: screen 0px bottom left right
     below: banner-panel 0px
     height: 100px
+
+
+@^| desktop, tablet
+-------------------
+footer-a-block
+    inside: footer 15px top left
+    height: > 30px
+
+footer-b-block
+    inside: footer 15px top right
+    near: footer-b-block > 0 px right
+
+@^| mobile
+-------------
+footer-a-block
+    inside: footer ~ 15px top left right
+    
+footer-b-block
+    aligned vertically all: footer-a-block
+    below: footer-a-block ~ 10px 
 
 
 

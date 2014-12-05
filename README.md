@@ -1,7 +1,27 @@
-(Still In development)  Shopping Cart Galen Workshop
+Shopping Cart. Visual Test Driven Development (Not finished yet)
 ======================
 
-The idea of the workshop is like this. Imagine you are a QA engineer or a Front-end developer in a team and you are told to make a responsive webpage "Shopping Cart". Product owner comes to you and gives you this sketch https://raw.githubusercontent.com/galenframework/workshop-shopping-cart/master/docs/sketch-scan.jpeg
-In the workshop we will simulate this situation and will try to come up with the approach for "tests first, implementation after". The message we try to bring is that "good test automation starts in the beginning and not in the end of the project". The development of the website will be split into small iterations and for each iteration you have to write a test and then we will check it agains a website iteration. The starting point is only a webpage skeleton, then we go into headers, then we go into navigation panel. An so on and so on.
-We will prepare the website for all iterations so we kind of like faking that we are developing it but what we are going to do is just writing tests.
+This project is an experiment on Visual Test Driven Development (VTDD) for Front-end with Galen Framework. It will be later used for Galen Framework workshops.
+We will try to learn how to structure our tests properly and use them during whole website development process. Good automation starts in the beginning of the project, not in the end.
+
+
+The idea
+=============
+
+We are going to build a responsive Shopping Cart web page. To make it simple we will test it and develop only for 3 sizes: desktop, tablet and mobile.
+The first thing we get as a requirement is this sketch https://raw.githubusercontent.com/galenframework/workshop-shopping-cart/master/docs/sketch-scan.jpeg.
+We will split our development into small iterations and for each of them the first thing we do is write a Galen test. Then we implement the page and try to get our test passed. For each iteration we implement only what is needed for the current tests.
+
+
+How to run it
+=============
+
+The page is located in ```website``` folder and tests are in ```galen-tests``` folder. If you use Mac or Linux you should be able to use the ```./runGalenTests.sh``` script. For Windows users I will try to come up with .bat script later
+
+
+Iterations
+===============
+
+Each iteration is represented as a git tag in this project. Just clone it and run ```git tag -n99``` to see all iterations.
+
 
