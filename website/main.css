@@ -72,6 +72,8 @@ nav a.navbar-brand img {
     margin: 0;
 }
 
+
+
 @media (min-width:992px ) {
     .row {
         display: table;
@@ -199,7 +201,32 @@ nav a.navbar-brand img {
 #shopping-cart .cart-item {
     min-height: 50px;
     border: 1px solid #aaa;
+    clear: both;
 }
+#shopping-cart .cart-item .mobile-menu-container{
+    clear: both;
+}
+#shopping-cart .cart-item a.item-title {
+    margin-top: 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#shopping-cart .cart-item .item-description{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    overflow: hidden;
+}
+
+#shopping-cart .cart-item .item-main-icon {
+    margin: 15px;
+    display: block;
+    float: left;
+}
+
+
+
 
 #banner-panel {
     background: #aaf;
