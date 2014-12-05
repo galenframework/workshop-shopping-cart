@@ -173,11 +173,11 @@ footer
 -------------------
 footer-a-block
     inside: footer 15px top left
-    height: > 30px
+    height: > 10px
 
 footer-b-block
     inside: footer 15px top right
-    near: footer-b-block > 0 px right
+    near: footer-a-block > 0 px right
 
 @^| mobile
 -------------
