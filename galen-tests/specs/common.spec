@@ -207,7 +207,7 @@ main
 ------------------
 main
     inside: screen 0px left right
-    above: banner-panel 0px
+    above: banner-panel ~ 0px
 
 
 

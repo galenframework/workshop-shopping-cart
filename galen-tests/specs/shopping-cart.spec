@@ -29,7 +29,7 @@ cart-item-1
 @^| desktop
 -----------------------------------------------
 cart-item-*
-    inside: main 15px top left
+    inside: main 15px left right
 
 [ 2 - ${cartsNum} ]
 cart-item-@
@@ -40,7 +40,7 @@ cart-item-@
 @^| tablet, mobile 
 -----------------------------------------------
 cart-item-*
-    inside: main 0 to 1px top left
+    inside: main 0 to 1px left right
 
 [ 2 - ${cartsNum} ]
 cart-item-@
