@@ -19,10 +19,10 @@ image
 
 title 
     near: image 15px right
-    aligned horizontally top: image
+    aligned horizontally top: image 1px
     height: 15 to 20px
 
 description
     aligned vertically left: title
-    below: title 10px
+    below: title 9 to 11px
     inside: parent >9px bottom

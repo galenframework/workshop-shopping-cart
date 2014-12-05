@@ -74,6 +74,74 @@ nav a.navbar-brand img {
 
 
 
+
+
+#middle > .row {
+    position: relative;
+}
+
+#main-container {
+    background: #fff;
+    padding-bottom: 20px;
+}
+
+#main-container h1 {
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+#shopping-cart .cart-item {
+    position: relative;
+    min-height: 50px;
+    border: 1px solid #aaa;
+    clear: both;
+}
+#shopping-cart .cart-item .mobile-menu-container{
+    clear: both;
+}
+#shopping-cart .cart-item .item-title-container {
+    margin-top: 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#shopping-cart .cart-item .item-description{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    overflow: hidden;
+}
+
+#shopping-cart .cart-item .item-main-icon {
+    margin: 15px;
+    display: block;
+    float: left;
+}
+
+
+#banner-panel {
+    background: #aaf;
+    padding: 15px;
+    margin: 0;
+}
+
+.container-full {
+    margin 0 auto;
+    width: 100%;
+}
+.row {
+    margin: 0;
+}
+
+
+#footer {
+    color: white;
+    background: #222;
+    height: 100px;
+    padding-top: 15px;
+}
+
+
 @media (min-width:992px ) {
     .row {
         display: table;
@@ -164,8 +232,29 @@ nav a.navbar-brand img {
     #shopping-cart .cart-item {
         margin-bottom: 0;
     }
+
+    #shopping-cart .cart-item .item-title-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 95%;
+        padding-left: 94px;
+    }
+    #shopping-cart .cart-item .item-title-container a {
+        display: block;
+        max-width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    #shopping-cart .cart-item .item-description {
+        position: absolute;
+        top: 44px;
+        left: 94px;
+    }
 }
 
+/* mobile */
 @media (max-width: 500px) {
     #navigation {
         padding: 0;
@@ -179,73 +268,7 @@ nav a.navbar-brand img {
     #navigation ul ul {
         display: none;
     }
+
 }
 
 
-
-
-#middle > .row {
-    position: relative;
-}
-
-#main-container {
-    background: #fff;
-    padding-bottom: 20px;
-}
-
-#main-container h1 {
-    font-size: 28px;
-    margin-top: 15px;
-}
-
-#shopping-cart .cart-item {
-    min-height: 50px;
-    border: 1px solid #aaa;
-    clear: both;
-}
-#shopping-cart .cart-item .mobile-menu-container{
-    clear: both;
-}
-#shopping-cart .cart-item a.item-title {
-    margin-top: 15px;
-    display: inline-block;
-    margin-bottom: 10px;
-}
-#shopping-cart .cart-item .item-description{
-    font-size: 12px;
-    padding: 0;
-    margin: 0;
-    height: 30px;
-    overflow: hidden;
-}
-
-#shopping-cart .cart-item .item-main-icon {
-    margin: 15px;
-    display: block;
-    float: left;
-}
-
-
-
-
-#banner-panel {
-    background: #aaf;
-    padding: 15px;
-    margin: 0;
-}
-
-.container-full {
-    margin 0 auto;
-    width: 100%;
-}
-.row {
-    margin: 0;
-}
-
-
-#footer {
-    color: white;
-    background: #222;
-    height: 100px;
-    padding-top: 15px;
-}
