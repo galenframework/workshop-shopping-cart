@@ -1,4 +1,6 @@
-
+html, body {
+    height: 100%;
+}
 
 #header {
     color: white;
@@ -58,6 +60,20 @@ nav a.navbar-brand img {
 }
 
 @media (min-width:992px ) {
+    .row {
+        display: table;
+        width: 100%;
+    }
+
+    [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    #navigation {
+        padding: 15px;
+    }
     #navigation > ul > li {
         margin-bottom: 15px
     }
@@ -65,7 +81,14 @@ nav a.navbar-brand img {
 
 @media (max-width: 991px) and (min-width:501px) {
     #navigation > ul > li {
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    #navigation > ul > li > a{
         display: inline-block;
+        padding: 10px;
     }
 }
 
@@ -83,6 +106,10 @@ nav a.navbar-brand img {
 
 
 
+
+#middle > .row {
+    position: relative;
+}
 
 #main-container {
     background: #afa;

@@ -115,7 +115,7 @@ navigation
 @^| tablet
 -----------------
 navigation-item-1
-    inside: navigation 15px left
+    inside: navigation 15px left, 0px top bottom
     
 [ 1 - 3 ]
 navigation-item-@
