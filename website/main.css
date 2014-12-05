@@ -64,7 +64,7 @@ nav a.navbar-brand img {
     font-weight: bold;
 }
 
-#navigation ul ul li {
+#navigation ul li {
     display: block;
 }
 
@@ -189,7 +189,7 @@ nav a.navbar-brand img {
     padding-top: 15px;
 }
 
-
+/* desktop */
 @media (min-width:992px ) {
     .row {
         display: table;
@@ -205,11 +205,11 @@ nav a.navbar-brand img {
     #navigation {
         padding: 15px;
     }
-    #navigation > ul > li {
+    #navigation .top-menu .top-menu-item {
         padding: 0;
         margin-bottom: 15px
     }
-    #navigation ul ul {
+    #navigation ul {
         margin-left: 15px;
     }
     #shopping-cart .cart-item {
@@ -244,12 +244,13 @@ nav a.navbar-brand img {
         margin: 0;
         padding: 0;
     }
-    #navigation > ul > li > a{
-        display: inline-block;
+    #navigation .top-menu-mobile-row, #navigation .top-menu-item{
+        display: block;
+        float: left;
         padding: 10px;
     }
 
-    #navigation ul ul {
+    #navigation ul {
         display: none;
     }
 
@@ -267,11 +268,18 @@ nav a.navbar-brand img {
         vertical-align: top;
     }
 
-
+    #cart-bottom-panel div.buttons-panel {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 /* tablet and mobile */
 @media (max-width: 991px) {
+    #navigation .top-menu-mobile-row {
+        padding: 0;
+    }
+
     #main-container {
         padding-left: 0;
         padding-right: 0;
@@ -303,14 +311,17 @@ nav a.navbar-brand img {
         width: 100%;
         max-width: 100%;
     }
-    #navigation > ul > li {
-        display: block;
+    #navigation .top-menu-mobile-row {
+        display: table;
+        width: 100%;
+        padding: 1px;
+    }
+    #navigation .top-menu-item {
+        display: table-cell;
         width: 50%;
-        margin: 0;
-        float: left;
     }
 
-    #navigation ul ul {
+    #navigation ul {
         display: none;
     }
 
@@ -323,7 +334,8 @@ nav a.navbar-brand img {
     #cart-bottom-panel div.button-column {
         display: table-cell;
         width: 50%;
-        padding: 2px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     #cart-bottom-panel .btn {
         width: 100%;

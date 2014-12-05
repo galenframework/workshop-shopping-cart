@@ -11,7 +11,7 @@ header-menubutton   css #header-menubutton
 
 
 navigation          css #navigation
-navigation-item-*   css #navigation > ul > li
+navigation-item-*   css #navigation .top-menu-item
 
 
 
@@ -139,23 +139,23 @@ navigation-item-@
 
 [ 1 - 2 ]
 navigation-item-@
-    above: navigation-item-@{+2} 0px
+    above: navigation-item-@{+2} 0 to 2px
 
 [ 1, 3 ]
 navigation-item-@
-    near: navigation-item-@{+1} 0px left 
+    near: navigation-item-@{+1} 0 to 2 px left 
 
 navigation-item-1
-    inside: navigation 0px top left
+    inside: navigation 0 to 2px top left
 
 navigation-item-2
-    inside: navigation 0px top right
+    inside: navigation 0 to 2px top right
 
 navigation-item-3
-    inside: navigation 0 to 1px bottom left
+    inside: navigation 0 to 2px bottom left
 
 navigation-item-4
-    inside: navigation 0 to 1px bottom right
+    inside: navigation 0 to 2px bottom right
 
 
 
@@ -165,7 +165,7 @@ navigation-item-4
 -------------------
 footer
     % inside: screen 0px bottom left right
-    below: banner-panel 0px
+    below: banner-panel 0 to 1px
     height: 100px
 
 

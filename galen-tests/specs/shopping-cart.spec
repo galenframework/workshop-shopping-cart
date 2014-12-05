@@ -82,10 +82,10 @@ cart-item-@
 @^| mobile
 -----------------------------------------------
 pay-button
-    inside: main 15px left, 30px bottom
+    inside: main 13 to 16px left, 30px bottom
 
 cancel-button
-    inside: main 15px right, 30px bottom
+    inside: main 13 to 16px right, 30px bottom
     near: pay-button 4 to 10px right 
 
 
