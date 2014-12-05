@@ -1,12 +1,10 @@
-v0.1            First html iteration
-v0.1.1          Fixed the overlfow of middle container
-v0.1.2          The first iteration is complete and tests are passed
-v0.1.3          Spec refactoring. Proper sections naming
-v0.2            First header iteration
-v0.2.1          The header is finished. Tests are ok
+v0.1            First iteration. Tests and code are written. Tests are failed
+v0.1.1          Skeleton is finished. Tests are finished
+v0.2            Header implemented. Tests are failing
+v0.2.1          Header implemented. Tests are passed
 v0.3            Implemented high-level navigation items. The tests are failing
 v0.3.1          High level navigation is finished. Tests are passed
-v0.3.2          Sub items in navigation are implemented. tests are failed
+v0.3.2          Sub items in navigation are implemented. Tests are failed
 v0.3.3          Sub items for desktop are finished. Tests are passed
 v0.4            Footer elements initial layout. Tests are failed
 v0.4.1          Finished footer blocks. Tests are passed
@@ -17,6 +15,5 @@ v0.5.3          Fixed basic cart elements. Tests are passed
 v0.5.4          Added control panel for cart items. Tests are passed
 v0.5.5          Added pay buttons and total label. Tests are failing
 v0.5.6          Refactored navigation menu. Fixed pay buttons. Tests are passed
-v0.6            Added banner suggested items. Tests are fialing
-v0.6.1          Fixed banner suggested items. Tests are passed
-v0.6.2          Improved colors. Tests are passed
+v0.6            Added banner suggested items. Tests are failing
+v0.6.1          Fixed banner suggested items. Improved colors. Tests are passed

@@ -5,23 +5,21 @@
     color: white;
     border-radius: 0;
 }
-
+.navbar {
+    margin-bottom: 0;
+}
 
 #navigation {
     background: #faa;
-    height: 100px;
 }
 
 #main-container {
     background: #afa;
-    height: 100px;
 }
 
 #banner-panel {
     background: #aaf;
-    height: 100px;
 }
-
 
 .container-full {
     margin 0 auto;
