@@ -15,8 +15,15 @@ navigation-item-*   css #navigation .top-menu-item
 
 
 
-main            css #main-container
-banner-panel    css #banner-panel
+main                    css #main-container
+
+
+banner-panel            css #banner-panel
+banner-panel-title      css #banner-panel h1
+banner-suggest-item-*   css #banner-panel .suggested-item
+
+
+
 
 footer          css #footer
 footer-a-block  css #footer-a-block
@@ -214,8 +221,29 @@ main
 
 
 ################## BANNER PANEL ####################
+@@ set bannerItemAmount ${count("banner-suggest-item-*")}
 
-@ Banner panel | desktop, tablet
+@ Banner panel | *
+----------------------
+
+banner-panel-title
+    inside: banner-panel 15 px top left
+    text is: Suggested
+
+banner-suggest-item-*
+    component: banner-suggest-item.spec
+    inside: banner-panel 15 px left right
+
+
+banner-suggest-item-1
+    below: banner-panel-title 10px
+
+[ 2 - ${bannerItemAmount} ]
+banner-suggest-item-@
+    below: banner-suggest-item-@{-1} 5px
+
+
+@^| desktop, tablet
 -------------------
 banner-panel
     inside: screen 0px right

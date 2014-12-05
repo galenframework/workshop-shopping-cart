@@ -168,10 +168,56 @@ nav a.navbar-brand img {
 
 
 #banner-panel {
-    background: #aaf;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0;
 }
+#banner-panel h1 {
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+#banner-panel .suggested-item {
+    margin-bottom: 10px;
+}
+#banner-panel .suggested-item:after  {
+    display: block;
+    content: " ";
+    font-size: 1px;
+    clear: both;
+}
+#banner-panel .suggested-item .item-icon {
+    display: block;
+    float: left;
+    width: 64px;
+    margin-right: 10px;
+}
+#banner-panel .suggested-item .item-icon img {
+    max-width: 64px;
+    max-height: 64px;
+} 
+
+#banner-panel .suggested-item .item-title {
+    font-weight: bold;
+}
+#banner-panel .suggested-item .item-description {
+    font-size: 11px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#banner-panel .suggested-item .item-container {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#banner-panel .suggested-item .item-price {
+    font-weight: bold;
+    position: absolute;
+    bottom: 2px;
+}
+
+
 
 .container-full {
     margin 0 auto;
