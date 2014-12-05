@@ -103,15 +103,15 @@ navigation
     inside: screen 0px left
 
 navigation-item-1
-    inside: navigation 15px top left right
+    inside: navigation 15 to 16px top left right
 
 [ 1 - 3 ]
 navigation-item-@
     above: navigation-item-@{+1} ~ 15px
-    inside: navigation 15px left right
+    inside: navigation 15 to 16px left right
 
 navigation-item-4
-    inside: navigation 15px left right, > 14px bottom
+    inside: navigation 15 to 16px left right, > 14px bottom
 
 
 @^| tablet, mobile
@@ -227,12 +227,12 @@ main
 ----------------------
 
 banner-panel-title
-    inside: banner-panel 15 px top left
+    inside: banner-panel 15 to 16px top left
     text is: Suggested
 
 banner-suggest-item-*
     component: banner-suggest-item.spec
-    inside: banner-panel 15 px left right
+    inside: banner-panel 15 to 16px left right
 
 
 banner-suggest-item-1
@@ -240,7 +240,7 @@ banner-suggest-item-1
 
 [ 2 - ${bannerItemAmount} ]
 banner-suggest-item-@
-    below: banner-suggest-item-@{-1} 5px
+    below: banner-suggest-item-@{-1} 10px
 
 
 @^| desktop, tablet

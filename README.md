@@ -23,5 +23,6 @@ Iterations
 ===============
 
 Each iteration is represented as a git tag in this project. Just clone it and run ```git tag -n99``` to see all iterations.
+I have generated the overview for all iterations in here http://galenframework.github.io/workshop-shopping-cart/
 
 

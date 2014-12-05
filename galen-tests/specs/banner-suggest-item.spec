@@ -27,7 +27,7 @@ title
 description
     aligned vertically left: title
     height: 14 to 20px
-    below: title 0px
+    below: title 0 to 1px
     inside: parent > -1px right
 
 price
