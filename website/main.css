@@ -99,17 +99,50 @@ nav a.navbar-brand img {
 #shopping-cart .cart-item .mobile-menu-container{
     clear: both;
 }
-#shopping-cart .cart-item .item-title-container {
-    margin-top: 15px;
-    display: inline-block;
-    margin-bottom: 10px;
+#shopping-cart .cart-item .basic-elements-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15px;
+    display: block;
+    width: 95%;
+    padding-left: 94px;
+    padding-right: 180px;
 }
-#shopping-cart .cart-item .item-description{
+#shopping-cart .cart-item .basic-elements-container a {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#shopping-cart .cart-item .item-description {
+    display: block;
+    margin-top: 10px;
     font-size: 12px;
     padding: 0;
-    margin: 0;
     height: 30px;
     overflow: hidden;
+}
+
+#shopping-cart .cart-item .control-panel {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 32px;
+    white-space: nowrap;
+}
+#shopping-cart .cart-item .control-panel > div{
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 5px;
+    padding: 0;
+}
+#shopping-cart .cart-item .control-panel .item-price {
+    font-weight: bold;
+    margin: 5px;
+}
+#shopping-cart .cart-item .control-panel .item-quantity {
+    color: gray;
 }
 
 #shopping-cart .cart-item .item-main-icon {
@@ -233,24 +266,8 @@ nav a.navbar-brand img {
         margin-bottom: 0;
     }
 
-    #shopping-cart .cart-item .item-title-container {
-        position: absolute;
-        left: 0;
-        top: 0;
-        display: block;
-        width: 95%;
-        padding-left: 94px;
-    }
-    #shopping-cart .cart-item .item-title-container a {
-        display: block;
-        max-width: 100%;
-        overflow: hidden;
-        white-space: nowrap;
-    }
-    #shopping-cart .cart-item .item-description {
-        position: absolute;
-        top: 44px;
-        left: 94px;
+    #shopping-cart .cart-item .control-panel .quantity-controls, #shopping-cart .cart-item .control-panel .remove-link {
+        display: none;
     }
 }
 
@@ -258,10 +275,14 @@ nav a.navbar-brand img {
 @media (max-width: 500px) {
     #navigation {
         padding: 0;
+        white-space: nowrap;
+        width: 100%;
+        max-width: 100%;
     }
     #navigation > ul > li {
         display: block;
         width: 50%;
+        margin: 0;
         float: left;
     }
 

@@ -134,7 +134,7 @@ navigation-item-4
 -----------------
 [ 1 - 4 ]
 navigation-item-@
-    width: 49 to 50 % of navigation/width
+    width: 49 to 52 % of navigation/width
     height: 100% of navigation-item-1/height
 
 [ 1 - 2 ]
