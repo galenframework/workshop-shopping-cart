@@ -7,6 +7,9 @@
 #header a, #header a span {
     color: white;
 }
+#header-menu {
+    padding: 0px;
+}
 nav.navbar {
     background: #333;
     color: white;
