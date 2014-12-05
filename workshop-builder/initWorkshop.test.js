@@ -88,7 +88,7 @@ function generateOverviewLayout(versions) {
     for (var i = 0; i<versions.length; i++) {
         html +=
         "<div class='row container version'>\n \
-            <div class='col-md-12 col-lg-12'><a class='github-tag' href='https://github.com/galenframework/workshop-shopping-cart/releases/tag/" + versions[i].name + "'>" + versions[i].name + "</a>\
+            <div class='col-md-12 col-lg-12'><a class='github-tag' href='https://github.com/galenframework/workshop-shopping-cart/tree/" + versions[i].name + "'>" + versions[i].name + "</a>\
             <a class='version-title' href='" + versions[i].name + "/website/shopping-cart.html'>" + versions[i].title + "</a> \
             </div>\
             <div class='col-md-4 col-lg-4'>\n \
