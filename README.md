@@ -26,3 +26,8 @@ Each iteration is represented as a git tag in this project. Just clone it and ru
 I have generated the overview for all iterations in here http://galenframework.github.io/workshop-shopping-cart/
 
 
+Publications
+===============
+[Visual Test-Driven Development For Responsive Interface Design](http://www.smashingmagazine.com/2015/04/07/visual-test-driven-development-responsive-interface-design/) - this article was based on this workshop and provides the detailed explanation.
+
+
